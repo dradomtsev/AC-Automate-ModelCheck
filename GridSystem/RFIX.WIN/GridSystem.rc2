@@ -1,0 +1,14 @@
+/* *****************************************************************************
+// Resource description for the GridSystem ARCHICAD Add-On
+// API Development Kit; Windows resources
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "GridSystem.grc.rc2"
+#include "GridSystemFix.grc.rc2"
+
+1	ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

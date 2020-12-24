@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Src\APICommon.c">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DumpWriter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DumpUtils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\$(ProjectName).cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Resource.h" />
+    <ClInclude Include="Src\APICommon.h">
+      <Filter>Src\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\APIEnvir.h">
+      <Filter>Src\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DumpWriter.hpp">
+      <Filter>Src\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DumpUtils.hpp">
+      <Filter>Src\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\Support\Lib\Win\ACAP_STATD.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\..\..\Support\Modules\DGLib\Win\DGImp.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\..\..\Support\Modules\Geometry\Win\GeometryImp.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\..\..\Support\Modules\GSRoot\Win\GSRootImp.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\..\..\Support\Modules\GSUtils\Win\GSUtilsImp.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\..\..\Support\Modules\InputOutput\Win\InputOutputImp.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\..\..\Support\Modules\Model3D\Win\Model3DImp.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\..\..\Support\Modules\ObjectDatabase\Win\ObjectDatabaseImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\..\..\Support\Modules\UCLib\Win\UCImp.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\..\..\Support\Modules\VectorImage\Win\VectorImageImp.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RINT\$(ProjectName).grc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RFIX.WIN\$(ProjectName).rc2">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RFIX\$(ProjectName)Fix.grc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{d5ddd9b3-6160-4ac1-a493-7ba264401f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Headers">
+      <UniqueIdentifier>{962683c0-47a6-498d-b24f-64139bad5e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{87d683b5-524b-4580-ba46-09bdede7dcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{2827ea13-f13a-49c2-b3c8-129a79db7a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Images">
+      <UniqueIdentifier>{eed9f338-7e60-4cb3-94a0-20d1f4bacd93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

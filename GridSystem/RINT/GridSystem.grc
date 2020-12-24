@@ -1,0 +1,27 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the GridSystem ARCHICAD Add-On
+// API Development Kit; Mac/Win
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "ResourceIDs.h"
+
+'STR#' ID_ADDON_INFO "Add-on Name and Description" {
+/* [  1] */		"GridSystem"
+/* [  2] */		"GridSystem ARCHICAD Add-On"
+}
+
+
+'STR#' ID_MENU_STRINGS "Menu strings" {
+/* [   ] */		"Model Check"
+/* [  1] */		"Read grids"
+}
+
+
+'STR#' ID_MENU_PROMPT_STRINGS "Status bar strings" {
+/* [  1] */		"Sample menu of GridSystem"
+}

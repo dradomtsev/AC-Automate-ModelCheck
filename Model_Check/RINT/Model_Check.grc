@@ -1,0 +1,29 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Model check Add-On
+// API Development Kit 24; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+@ #define	COMPANY_STR		"lumos-lab"
+@ #define	COPYRIGHT_STR	"	© lumos-lab 2020" /* ChangeCopyrightYear */
+@ #define	FILEDESC_STR	"Model Check Tool"
+
+'STR#' 32500 "Add-on description" {
+/* [  1] */	"Model Check add-on"
+/* [  2] */	"Model Check for systems testing"
+}
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32501 "Strings for menu #32501" {
+/* [   ] */		"Model check"
+/* [   ] */		"Grid System"
+/* [  1] */			"PlanDump^EL"
+/* [  2] */			"Store Actual Model For Compare^D2^E3"
+
+}
